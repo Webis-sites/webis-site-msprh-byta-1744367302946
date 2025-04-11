@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-11T10:52:54.568Z",
+  "timestamp": "2025-04-11T10:53:50.738Z",
   "status": {
     "totalComponents": 20,
-    "completedComponents": 10,
+    "completedComponents": 11,
     "failedComponents": 0,
-    "progress": 50
+    "progress": 55
   },
   "components": [
     {
@@ -70,7 +70,7 @@
     {
       "name": "PromotionsSection",
       "type": "promotions",
-      "status": "pending",
+      "status": "completed",
       "description": "Special offers, discounts and seasonal promotions"
     },
     {
