@@ -26,6 +26,9 @@
 
   --primary-dark: #3a5e54;
   --secondary-light: #fff5d4;
+
+  --card-border-radius: 1rem;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
     html {
