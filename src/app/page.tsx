@@ -12,10 +12,13 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import FAQSection from '@/components/FAQSection';
 import ContactSection from '@/components/ContactSection';
 import PromotionsSection from '@/components/PromotionsSection';
+import LocationSection from '@/components/LocationSection';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <LocationSection />
+      
       <PromotionsSection />
       
       <ContactSection />
