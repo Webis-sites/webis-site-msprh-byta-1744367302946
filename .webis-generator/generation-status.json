@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-11T10:42:52.886Z",
+  "timestamp": "2025-04-11T10:43:51.776Z",
   "status": {
     "totalComponents": 20,
-    "completedComponents": 5,
+    "completedComponents": 6,
     "failedComponents": 0,
-    "progress": 25
+    "progress": 30
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "name": "StylistsSection",
       "type": "team",
-      "status": "pending",
+      "status": "completed",
       "description": "Showcase of the salon's professional stylists and their specialties"
     },
     {
