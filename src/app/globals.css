@@ -36,6 +36,9 @@
   --shadow-neumorphic: 5px 5px 15px rgba(0,0,0,0.1), -5px -5px 15px rgba(255,255,255,0.7);
   --shadow-neumorphic-inset: inset 5px 5px 10px rgba(0,0,0,0.05), inset -5px -5px 10px rgba(255,255,255,0.5);
   --transition-default: all 0.3s ease;
+
+  --shadow-light: 5px 5px 15px rgba(0,0,0,0.05), -5px -5px 15px rgba(255,255,255,0.8);
+  --shadow-inset: inset 5px 5px 10px rgba(0,0,0,0.1), inset -5px -5px 10px rgba(255,255,255,0.1);
 }
 
     html {
