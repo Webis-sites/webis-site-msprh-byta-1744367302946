@@ -1,4 +1,6 @@
-import { Metadata } from 'next';
+/// <reference types="react" />
+
+import { type Metadata } from 'next';
 import { Inter, Heebo } from 'next/font/google';
 import './globals.css';
 import React from 'react';
