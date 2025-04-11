@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { FaScissors, FaShoppingBag, FaUser, FaTag } from 'react-icons/fa';
+import { FaServicestack, FaShoppingBag, FaUser, FaTag } from 'react-icons/fa';
 
 // Define types for the Card component
 interface CardProps {
@@ -37,7 +37,7 @@ const Card: React.FC<CardProps> = ({
   const getIcon = () => {
     switch (type) {
       case 'service':
-        return <FaScissors className="ml-2" />;
+        return <FaServicestack className="ml-2" />;
       case 'product':
         return <FaShoppingBag className="ml-2" />;
       case 'team':
@@ -45,7 +45,7 @@ const Card: React.FC<CardProps> = ({
       case 'promotion':
         return <FaTag className="ml-2" />;
       default:
-        return <FaScissors className="ml-2" />;
+        return <FaServicestack className="ml-2" />;
     }
   };
 

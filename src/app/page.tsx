@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Layout from '@/components/Layout';
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
 import GallerySection from '@/components/GallerySection';
@@ -25,21 +24,10 @@ import Form from '@/components/Form';
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
-      <Form />
-      
-      <Accordion />
-      
-      <ImageGallery />
-      
-      <SectionHeader />
-      
-      <Card />
-      
-      <Button />
       
       <Navbar />
       
-      <Footer />
+      <HeroSection />
       
       <LocationSection />
       
@@ -55,23 +43,26 @@ export default function HomePage() {
       
       <StylistsSection />
       
+      <Form />
+      
+      <Accordion />
+      
+      <ImageGallery />
+      
+      <SectionHeader title="כבוד והצלחה" />
+      
+      <Card id="testimonials" type="service" image="https://via.placeholder.com/150" title="משתמש מספר 1" description="זה הכי טוב שהיה" />
+      
+      <Button>כתוב תגובה</Button>
+
       <BookingSection />
       
       <GallerySection />
       
       <ServicesSection />
       
-      <HeroSection />
+      <Footer />
       
-      <Layout />
-      
-      
-      
-      <footer className="py-6 bg-gray-100 dark:bg-gray-800">
-        <div className="container mx-auto px-4 text-center text-gray-500 text-sm">
-          &copy; 2025 מספרה ביתא. webis
-        </div>
-      </footer>
     </div>
   );
 }

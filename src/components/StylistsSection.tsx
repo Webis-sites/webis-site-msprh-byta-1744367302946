@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaScissors, FaAward, FaInstagram, FaFacebookF, FaCalendarAlt } from 'react-icons/fa';
+import { FaServicestack, FaAward, FaInstagram, FaFacebookF, FaCalendarAlt } from 'react-icons/fa';
 
 interface Stylist {
   id: number;
@@ -162,7 +162,7 @@ const StylistsSection: React.FC = () => {
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="text-2xl font-bold text-gray-800">{stylist.name}</h3>
                       <div className="flex items-center bg-[#FFEEAD]/30 px-3 py-1 rounded-full">
-                        <FaScissors className="text-[#588C7E] ml-1" />
+                        <FaServicestack className="text-[#588C7E] ml-1" />
                         <span className="text-sm font-medium text-gray-700">{stylist.specialization}</span>
                       </div>
                     </div>

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaScissors } from 'react-icons/fa';
+import { FaServicestack } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 
 interface SectionHeaderProps {
@@ -114,7 +114,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
             animate={inView ? "visible" : "hidden"}
           >
             <div className="h-[1px] w-12 bg-gradient-to-r from-transparent to-[#588C7E]"></div>
-            <FaScissors className="text-[#588C7E] transform rotate-90" size={18} />
+            <FaServicestack className="text-[#588C7E] transform rotate-90" size={18} />
             <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-[#588C7E]"></div>
           </motion.div>
         );

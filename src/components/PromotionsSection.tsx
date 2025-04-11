@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaClock, FaCalendarAlt, FaScissors, FaFire } from 'react-icons/fa';
+import { FaClock, FaCalendarAlt, FaServicestack, FaFire } from 'react-icons/fa';
 import { MdLocalOffer } from 'react-icons/md';
 
 interface Promotion {
@@ -213,7 +213,7 @@ const PromotionsSection: React.FC = () => {
                     </div>
                     
                     <button className="w-full py-3 px-6 bg-primary text-white rounded-xl font-medium transition-all duration-300 shadow-[5px_5px_10px_rgba(0,0,0,0.1),_-5px_-5px_10px_rgba(255,255,255,0.8)] hover:shadow-[inset_5px_5px_10px_rgba(0,0,0,0.1),_inset_-5px_-5px_10px_rgba(255,255,255,0.2)] active:scale-[0.98] flex justify-center items-center gap-2">
-                      <FaScissors />
+                      <FaServicestack />
                       <span>הזמינו תור עכשיו</span>
                     </button>
                   </div>
