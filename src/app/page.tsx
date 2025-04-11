@@ -17,10 +17,13 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import Button from '@/components/Button';
 import Card from '@/components/Card';
+import SectionHeader from '@/components/SectionHeader';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <SectionHeader />
+      
       <Card />
       
       <Button />
