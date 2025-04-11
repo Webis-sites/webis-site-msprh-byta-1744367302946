@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-11T10:31:43.432Z",
+  "timestamp": "2025-04-11T10:32:31.918Z",
   "status": {
     "totalComponents": 20,
-    "completedComponents": 1,
+    "completedComponents": 2,
     "failedComponents": 0,
-    "progress": 5
+    "progress": 10
   },
   "components": [
     {
@@ -16,7 +16,7 @@
     {
       "name": "HeroSection",
       "type": "hero",
-      "status": "pending",
+      "status": "completed",
       "description": "Bold, attention-grabbing hero section with headline, subheadline and booking CTA"
     },
     {
