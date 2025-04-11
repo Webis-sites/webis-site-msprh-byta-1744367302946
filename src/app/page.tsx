@@ -20,10 +20,13 @@ import Card from '@/components/Card';
 import SectionHeader from '@/components/SectionHeader';
 import ImageGallery from '@/components/ImageGallery';
 import Accordion from '@/components/Accordion';
+import Form from '@/components/Form';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <Form />
+      
       <Accordion />
       
       <ImageGallery />
