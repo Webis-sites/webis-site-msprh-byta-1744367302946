@@ -14,10 +14,13 @@ import ContactSection from '@/components/ContactSection';
 import PromotionsSection from '@/components/PromotionsSection';
 import LocationSection from '@/components/LocationSection';
 import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <Navbar />
+      
       <Footer />
       
       <LocationSection />
