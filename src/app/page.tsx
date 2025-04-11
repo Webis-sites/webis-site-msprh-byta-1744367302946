@@ -7,10 +7,13 @@ import ServicesSection from '@/components/ServicesSection';
 import GallerySection from '@/components/GallerySection';
 import BookingSection from '@/components/BookingSection';
 import StylistsSection from '@/components/StylistsSection';
+import ProductsSection from '@/components/ProductsSection';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <ProductsSection />
+      
       <StylistsSection />
       
       <BookingSection />
