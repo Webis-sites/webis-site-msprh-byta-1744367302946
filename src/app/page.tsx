@@ -8,10 +8,13 @@ import GallerySection from '@/components/GallerySection';
 import BookingSection from '@/components/BookingSection';
 import StylistsSection from '@/components/StylistsSection';
 import ProductsSection from '@/components/ProductsSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <TestimonialsSection />
+      
       <ProductsSection />
       
       <StylistsSection />
