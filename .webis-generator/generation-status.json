@@ -1,11 +1,132 @@
 {
-  "timestamp": "2025-04-11T10:28:51.772Z",
+  "timestamp": "2025-04-11T10:29:50.505Z",
   "status": {
-    "totalComponents": 0,
+    "totalComponents": 20,
     "completedComponents": 0,
     "failedComponents": 0,
     "progress": 0
   },
-  "components": [],
+  "components": [
+    {
+      "name": "Layout",
+      "type": "layout",
+      "status": "pending",
+      "description": "Root layout component that provides the base structure for the entire application with RTL support for Hebrew"
+    },
+    {
+      "name": "HeroSection",
+      "type": "hero",
+      "status": "pending",
+      "description": "Bold, attention-grabbing hero section with headline, subheadline and booking CTA"
+    },
+    {
+      "name": "ServicesSection",
+      "type": "services",
+      "status": "pending",
+      "description": "Showcase of salon services with pricing and details"
+    },
+    {
+      "name": "GallerySection",
+      "type": "portfolio",
+      "status": "pending",
+      "description": "Visual portfolio showcasing the salon's work with before/after photos"
+    },
+    {
+      "name": "BookingSection",
+      "type": "booking",
+      "status": "pending",
+      "description": "Interactive appointment booking system with calendar and service selection"
+    },
+    {
+      "name": "StylistsSection",
+      "type": "team",
+      "status": "pending",
+      "description": "Showcase of the salon's professional stylists and their specialties"
+    },
+    {
+      "name": "ProductsSection",
+      "type": "products",
+      "status": "pending",
+      "description": "Display of hair care products sold by the salon"
+    },
+    {
+      "name": "TestimonialsSection",
+      "type": "social-proof",
+      "status": "pending",
+      "description": "Customer reviews and testimonials to build trust"
+    },
+    {
+      "name": "FAQSection",
+      "type": "faq",
+      "status": "pending",
+      "description": "Frequently asked questions about salon services and policies"
+    },
+    {
+      "name": "ContactSection",
+      "type": "contact",
+      "status": "pending",
+      "description": "Contact information and form for customer inquiries"
+    },
+    {
+      "name": "PromotionsSection",
+      "type": "promotions",
+      "status": "pending",
+      "description": "Special offers, discounts and seasonal promotions"
+    },
+    {
+      "name": "LocationSection",
+      "type": "location",
+      "status": "pending",
+      "description": "Salon location with map, directions and business hours"
+    },
+    {
+      "name": "Footer",
+      "type": "footer",
+      "status": "pending",
+      "description": "Website footer with navigation, social links and legal information"
+    },
+    {
+      "name": "Navbar",
+      "type": "navigation",
+      "status": "pending",
+      "description": "Responsive navigation bar with logo, menu and booking button"
+    },
+    {
+      "name": "Button",
+      "type": "ui-component",
+      "status": "pending",
+      "description": "Reusable button component with variants for different purposes"
+    },
+    {
+      "name": "Card",
+      "type": "ui-component",
+      "status": "pending",
+      "description": "Reusable card component for displaying various content types"
+    },
+    {
+      "name": "SectionHeader",
+      "type": "ui-component",
+      "status": "pending",
+      "description": "Reusable section header with title, subtitle and optional decoration"
+    },
+    {
+      "name": "ImageGallery",
+      "type": "ui-component",
+      "status": "pending",
+      "description": "Reusable image gallery component with lightbox functionality"
+    },
+    {
+      "name": "Accordion",
+      "type": "ui-component",
+      "status": "pending",
+      "description": "Reusable accordion component for FAQs and expandable content"
+    },
+    {
+      "name": "Form",
+      "type": "ui-component",
+      "status": "pending",
+      "description": "Reusable form component with validation and submission handling"
+    }
+  ],
   "repoName": "webis-site-msprh-byta-1744367302946"
 }
